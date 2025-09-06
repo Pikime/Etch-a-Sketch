@@ -1,7 +1,7 @@
 console.log("Hello World!");
 const sketchPad = document.querySelector("#sketchPad");
 
-let size = math.min(window.innerwidth, window.innerheight);
+let size = Math.min(window.innerwidth, window.innerheight);
 
 console.log("the minimum size")
 
