@@ -1,5 +1,5 @@
 console.log("Hello World!");
-const sketchPad = document.querySelector(".sketchPad");
+const sketchPad = document.querySelector("#sketchPad");
 
 const sketchCell = document.createElement("div");
 
