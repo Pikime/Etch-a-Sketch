@@ -3,7 +3,7 @@ const sketchPad = document.querySelector("#sketchPad");
 
 let size = Math.min(window.innerwidth, window.innerheight);
 
-console.log("the minimum size")
+console.log("the minimum size is: " + size)
 
 for (let i = 0; i < 4; i++) {
     const sketchCell = document.createElement("div");
