@@ -7,6 +7,5 @@ sketchCell.textContent = "I am a Cell";
 sketchCell.style.height = "100px";
 sketchCell.style.aspect-ratio: "1/1";
 
-for(let i = 0; i < 4; i++) {
-    sketchPad.appendChild(sketchCell);
-}
+
+sketchPad.appendChild(sketchCell);
