@@ -10,7 +10,6 @@ sketchPad.style.aspectRatio = "1/1";
 
 for (let i = 0; i < 0; i++) {
     const sketchRow = document.createElement("div");
-    sketchPad.appendChild(sketchRow)    
     for (let j = 0; j < 4; j++) {
         const sketchCell = document.createElement("div");
         sketchCell.textContent = "I am a Cell";
@@ -18,4 +17,5 @@ for (let i = 0; i < 0; i++) {
         sketchCell.style.aspectRatio = "1/1";
         sketchRow.appendChild(sketchCell);
     }
+    sketchPad.appendChild(sketchRow)    
 }
