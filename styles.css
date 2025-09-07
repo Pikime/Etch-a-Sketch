@@ -5,9 +5,4 @@ body {
 #sketchPad {
     display: flex;
     flex-direction: column;
-    /*background-color: blue;*/
-}
-
-.sketchCell {
-    background-color: red;
 }

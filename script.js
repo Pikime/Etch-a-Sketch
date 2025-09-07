@@ -1,17 +1,10 @@
 console.log("Hello World!");
 const sketchPad = document.querySelector("#sketchPad");
 
-//let size = Math.min(window.innerWidth, window.innerHeight);
-
-//console.log("the minimum size is: " + size)
-
-//sketchPad.style.height = size;
-//sketchPad.style.aspectRatio = "1/1";
-
 sketchPad.style.height = "100vmin";
 sketchPad.style.width = "100vmin";
 sketchPad.style.justifContent = "center";
-
+sketchPad.style.border = "10px solid black"
 
 for (let i = 0; i < 4; i++) {
     const sketchRow = document.createElement("div");
@@ -23,6 +16,7 @@ for (let i = 0; i < 4; i++) {
         //sketchCell.style.height = "100px";
         sketchCell.style.aspectRatio = "1/1";
         sketchCell.style.flexGrow = 1;
+        sketchCell.style.border = "2px solid darkgray"
         sketchRow.appendChild(sketchCell);
     }
     sketchPad.appendChild(sketchRow)    
