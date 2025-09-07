@@ -25,5 +25,5 @@ for (let i = 0; i < count; i++) {
 }
 
 function cellHover(event) {
-    consol.log(event.target.value);
+    console.log(event.target.value);
 }
