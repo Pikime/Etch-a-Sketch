@@ -3,8 +3,8 @@ const sketchPad = document.querySelector("#sketchPad");
 
 sketchPad.style.height = "100vmin";
 sketchPad.style.width = "100vmin";
-sketchPad.style.justifContent = "center";
-sketchPad.style.border = "10px solid black"
+//sketchPad.style.justifContent = "center";
+sketchPad.style.border = "5px solid black"
 
 for (let i = 0; i < 4; i++) {
     const sketchRow = document.createElement("div");
@@ -16,7 +16,7 @@ for (let i = 0; i < 4; i++) {
         //sketchCell.style.height = "100px";
         sketchCell.style.aspectRatio = "1/1";
         sketchCell.style.flexGrow = 1;
-        sketchCell.style.border = "2px solid darkgray"
+        sketchCell.style.border = "1px solid darkgray"
         sketchRow.appendChild(sketchCell);
     }
     sketchPad.appendChild(sketchRow)    
