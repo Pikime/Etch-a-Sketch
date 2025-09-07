@@ -17,8 +17,13 @@ for (let i = 0; i < count; i++) {
         //sketchCell.style.height = "100px";
         sketchCell.style.aspectRatio = "1/1";
         sketchCell.style.flexGrow = 1;
-        sketchCell.style.border = "1px solid darkgray"
+        sketchCell.style.border = "1px solid darkgray";
+        sketchCell.addEventListener("Hover", cellHover);
         sketchRow.appendChild(sketchCell);
     }
-    sketchPad.appendChild(sketchRow)    
+    sketchPad.appendChild(sketchRow)  ;  
+}
+
+function cellHover(event) {
+    consol.log(event.target);
 }
