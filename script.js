@@ -25,5 +25,6 @@ for (let i = 0; i < count; i++) {
 }
 
 function cellHover(event) {
+    console.log("I'm here");
     event.target.style.backgroundColor = "black";
 }
