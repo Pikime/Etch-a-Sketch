@@ -6,11 +6,13 @@ sketchPad.style.width = "85vmin";
 //sketchPad.style.justifContent = "center";
 sketchPad.style.border = "5px solid black"
 
-for (let i = 0; i < 4; i++) {
+let count = 16;
+
+for (let i = 0; i < count; i++) {
     const sketchRow = document.createElement("div");
     sketchRow.style.display = "flex";
     sketchRow.style.flexGrow = 1;
-    for (let j = 0; j < 4; j++) {
+    for (let j = 0; j < count; j++) {
         const sketchCell = document.createElement("div");
         sketchCell.textContent = "I am a Cell";
         //sketchCell.style.height = "100px";
