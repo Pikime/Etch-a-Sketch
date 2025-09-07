@@ -10,6 +10,7 @@ const sketchPad = document.querySelector("#sketchPad");
 
 sketchPad.style.height = "100vmin";
 sketchPad.style.width = "100vmin";
+sketchPad.style.justifContent = "center";
 
 
 for (let i = 0; i < 4; i++) {
