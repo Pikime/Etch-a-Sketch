@@ -10,6 +10,7 @@ sketchPad.style.aspectRatio = "1/1";
 
 for (let i = 0; i < 0; i++) {
     const sketchRow = document.createElement("div");
+    sketchRow.display = "flex";
     for (let j = 0; j < 4; j++) {
         const sketchCell = document.createElement("div");
         sketchCell.textContent = "I am a Cell";
