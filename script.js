@@ -3,7 +3,6 @@ const sketchPad = document.querySelector("#sketchPad");
 
 sketchPad.style.height = "85vmin";
 sketchPad.style.width = "85vmin";
-//sketchPad.style.justifContent = "center";
 sketchPad.style.border = "5px solid black"
 
 let count = 16;
