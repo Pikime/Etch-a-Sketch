@@ -18,7 +18,7 @@ for (let i = 0; i < count; i++) {
         sketchCell.style.aspectRatio = "1/1";
         sketchCell.style.flexGrow = 1;
         sketchCell.style.border = "1px solid darkgray";
-        sketchCell.addEventListener("Hover", cellHover);
+        sketchCell.addEventListener("mouseenter", cellHover);
         sketchRow.appendChild(sketchCell);
     }
     sketchPad.appendChild(sketchRow)  ;  
