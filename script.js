@@ -1,12 +1,16 @@
 console.log("Hello World!");
 const sketchPad = document.querySelector("#sketchPad");
 
-let size = Math.min(window.innerWidth, window.innerHeight);
+//let size = Math.min(window.innerWidth, window.innerHeight);
 
-console.log("the minimum size is: " + size)
+//console.log("the minimum size is: " + size)
 
-sketchPad.style.height = size;
-sketchPad.style.aspectRatio = "1/1";
+//sketchPad.style.height = size;
+//sketchPad.style.aspectRatio = "1/1";
+
+sketchPad.style.height = "100vmin";
+sketchPad.style.width = "100vmin";
+
 
 for (let i = 0; i < 4; i++) {
     const sketchRow = document.createElement("div");
