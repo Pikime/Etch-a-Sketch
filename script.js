@@ -8,7 +8,7 @@ console.log("the minimum size is: " + size)
 sketchPad.style.height = size;
 sketchPad.style.aspectRatio = "1/1";
 
-for (let i = 0; i < 0; i++) {
+for (let i = 0; i < 4; i++) {
     const sketchRow = document.createElement("div");
     sketchRow.display = "flex";
     for (let j = 0; j < 4; j++) {
