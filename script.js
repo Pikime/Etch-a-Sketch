@@ -1,8 +1,8 @@
 console.log("Hello World!");
 const sketchPad = document.querySelector("#sketchPad");
 
-sketchPad.style.height = "100vmin";
-sketchPad.style.width = "100vmin";
+sketchPad.style.height = "90vmin";
+sketchPad.style.width = "90vmin";
 //sketchPad.style.justifContent = "center";
 sketchPad.style.border = "5px solid black"
 
